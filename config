@@ -109,8 +109,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +3%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 # control screen brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+#bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
+#bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 
 # screen shot
 bindsym --release Print exec --no-startup-id scrot
@@ -180,6 +180,6 @@ bar {
   status_command i3status -c ${HOME}/.config/i3/i3statusconfig
 }
 
-exec --no-startup-id xrdb ~/.Xresources
-exec --no-startup-id fcitx-autostart
+#exec --no-startup-id xrdb ~/.Xresources
+#exec --no-startup-id fcitx-autostart
 

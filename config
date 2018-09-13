@@ -186,4 +186,5 @@ bar {
 
 #exec --no-startup-id xrdb ~/.Xresources
 #exec --no-startup-id fcitx-autostart
+exec --no-startup-id feh --bg-center ~/wallpaper.jpeg
 

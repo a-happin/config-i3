@@ -186,6 +186,6 @@ bar {
 
 #exec --no-startup-id xrdb ~/.Xresources
 #exec --no-startup-id fcitx-autostart
-exec --no-startup-id feh --no-fehbg --randomize --bg-max ~/Downloads/p2/*
+exec --no-startup-id feh --no-fehbg --randomize --bg-max ~/Dropbox/illust/*/*
 #exec --no-startup-id compton --config ${HOME}/.config/compton/compton.conf
 
